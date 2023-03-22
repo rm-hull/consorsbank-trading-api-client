@@ -10,10 +10,11 @@ If necessary, upgrade your version of `pip`:
 $ python -m pip install --upgrade pip
 ```
 
-Create a virtualenv and install dependencies with:
+Create a virtualenv, activate it and install dependencies with:
 
 ```console
 $ python -m venv .venv
+$ source .venv/bin/activate
 $ pip install -r requirements.txt
 ```
 
@@ -34,10 +35,9 @@ the `LOGIN_SECRET` and `GRPC_DEFAULT_SSL_ROOTS_FILE_PATH` values - you should be
 values from the ActiveTrader app (look in the Java Documentation: there is a pdf explaining how
 to do this).
 
-Activate the virtual env:
+In the same activated virtual env from earlier:
 
 ```console
-$ source .venv/bin/activate
 $ python trading_client.py
 ```
 
