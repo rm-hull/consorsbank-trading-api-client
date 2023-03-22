@@ -1,0 +1,1 @@
+# consorsbank-trading-api-client
