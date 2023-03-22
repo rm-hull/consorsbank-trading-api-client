@@ -1,0 +1,11 @@
+import Common_pb2 as _Common_pb2
+import StockExchangeService_pb2 as _StockExchangeService_pb2
+import SecurityService_pb2 as _SecurityService_pb2
+import AccountService_pb2 as _AccountService_pb2
+import OrderService_pb2 as _OrderService_pb2
+import DepotService_pb2 as _DepotService_pb2
+import AccessService_pb2 as _AccessService_pb2
+from google.protobuf import descriptor as _descriptor
+from typing import ClassVar as _ClassVar
+
+DESCRIPTOR: _descriptor.FileDescriptor
